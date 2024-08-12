@@ -1,0 +1,97 @@
+:root{
+    --primary-color: rgb(85, 6, 159);
+    --dark-prim-color: rgb(0, 0, 0); 
+    --size-4xl:4rem;
+    --size-2xl:3rem;
+    --size-xl:2.7rem;
+    --size-lg:2.5rem;
+    --size-md:2.2rem;
+    --size-sm:2rem;
+    --size-exs:1.5rem;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%); */
+    background: linear-gradient(#ffdad5,#fff7f9);
+    background: linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%);
+    
+
+}
+.contact__container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact__left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left__title h2{
+    font-weight: 600;
+    color: var(--dark-prim-color);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left__title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact__inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 500;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact__inputs input{
+    display: flex;
+}
+.contact__left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact__inputs:focus{
+    border: 2px solid var(--primary-color);
+}
+.contact__inputs::placeholder{
+    color: #a9a9a9;
+    margin-right: 10px;
+}
+.contact__left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+}
+@media (max-width:800px){
+
+ .contact__inputs{
+    width: 80vw;
+}
+.contact__right{
+    display: none;
+}
+}
