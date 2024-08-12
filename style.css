@@ -1,6 +1,6 @@
 @import 'services.css';
 @import 'Projects.css';
-@import '/Projectsmobile.css';
+@import 'Projectsmobile.css';
 :root{
 
     --primary-color: #FFB6C1;
