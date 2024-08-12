@@ -28,13 +28,13 @@ img.displaySlides{
 }
 .slider{
     margin: 12px;
-    border-radius: 12px;
+    margin: 12px;
     max-height: 33vh;
 }
 .slides{
+    border-radius: 12px;
     overflow: hidden;
-    transition: all 3s ease;
-    margin: 12px;
+    
 }
 .slides img{
     transition:  3s ease;
