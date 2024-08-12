@@ -74,25 +74,25 @@ input:checked + label .description{
 }
 
 .card[for="C1"]{
-    background-image: url('/project1.PNG');
+    background-image: url('project1.PNG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card[for="C2"]{
-    background-image: url('/project2.PNG');
+    background-image: url('project2.PNG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card[for="C3"]{
-    background-image: url('/project3.PNG');
+    background-image: url('project3.PNG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .card[for="C4"]{
-    background-image: url('/project4.PNG');
+    background-image: url('project4.PNG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
