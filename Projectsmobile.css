@@ -74,3 +74,8 @@ img.displaySlides{
     color: #b0b0ba;
     padding-top:5px;
 }
+@media (max-width=786px){
+    .container.mobile__project{
+    display:block;
+    }
+}
