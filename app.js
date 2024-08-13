@@ -31,8 +31,8 @@ function showslide(index){
         p.textContent = "Here I cloned the UI of Netflix website.";
     }
     else if(index == 1){
-        heading.textContent = "Food website:"
-    p.textContent = "Here I built a UI of a Fo0d odering website.";
+        heading.textContent = "Food Delivery web:"
+    p.textContent = "Here I built a UI of a Food odering website.";
     
 }
 else if(index == 2){
@@ -41,7 +41,7 @@ else if(index == 2){
     
 }
 else if(index == 3){
-    heading.textContent = "Gym website:";
+    heading.textContent = "Gym web:";
     p.textContent = "It was my first project.";
     
 }
