@@ -172,6 +172,9 @@ a{
 .ham__menu span:nth-child(3){
     top: 75%;
 }
+.ham__menu.active{
+    color: #fff;
+}
 .ham__menu.active span:nth-child(1){
     top: 50%;
     transform: translate(50%,-50%) rotate(45deg);
